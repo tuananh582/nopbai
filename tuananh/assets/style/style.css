@@ -1,0 +1,55 @@
+h1{
+    color: aqua;
+
+}
+h2{
+    color: aqua;
+
+
+}
+.anh{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+}
+.interest{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 100px;
+    
+
+   
+}
+.skill{
+   
+    font-style: normal;
+    font-size: 20px;
+ 
+    font-size: 20px;
+    font-weight: 100px;
+    
+   
+}
+.education{
+    text-transform:capitalize;
+    font-style:normal;
+    font-size: 20px;
+}
+.exper{
+   text-shadow: 1px 2px ;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 100px;
+    font-display: 100px;
+}
+.Extracurricular{
+   text-transform: capitalize;
+   font-size: 20px;
+    font-weight: 100px;
+    font-display: 100px;
+
+}
+.contact{
+    margin-right: 200px;
+}
+
