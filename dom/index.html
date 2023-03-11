@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nhap">
+        <label for="">So 1 </label><br>
+        <input type="number" id="so1" onchange="onChangeGetValueInput1()"><br>
+        <label for="">So 2</label><br>
+        <input type="number" id="so2" onchange="onChangeGetValueInput2()">
+
+    </div>
+    <div id="tinhtoan">
+        <button onclick="clickgetvalue('+')">Phep tinh cong</button>
+        <button onclick="clickgetvalue('-')" >Phep tinh tru</button>
+        <button onclick="clickgetvalue('*')" >Phep tinh nhan</button>
+        <button onclick="clickgetvalue('/')" > Phep tinh chia</button>
+        <br>
+        <br>
+        <button onclick="viewresult()" >Ket qua sau khi tinh toan la</button>
+    </div>
+    <div id="ketqua">
+        <label for=""></label>
+    </div>
+    <p class="result"></p>
+</body>
+<script src="/dom/main.js"></script>
+</html>

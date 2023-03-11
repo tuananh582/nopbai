@@ -1,0 +1,21 @@
+.contain{
+    margin: 0px;
+    
+    width: 500px;
+    height: 300px;
+    border: 2px solid ;
+    display: flex;
+     
+        /* align-items:baseline; */
+    flex-wrap: wrap;
+
+    
+}
+.contain>div{
+    margin: 20px;
+   padding: 10px;
+    background-color: aqua;
+    height: 20px;
+    font-size: 1.5rem;
+    
+}

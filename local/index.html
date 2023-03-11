@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/local/style.css">
+</head>
+<body>
+    <div>
+        <label for="">Ho va Ten</label>
+        <input type="text" placeholder="Nhap ho va ten" id="name" onchange="getname()">
+        <br>
+        <br>
+        <label for="">Nam Sinh</label>
+        <input type="number" placeholder="nhap nam sinh" id="birthday" onchange="getbirthday()">
+        <br>
+        <br>
+        <button onclick="savedata()">Tao Thong Tin</button>
+        <button onclick="showdata()">show informations</button>
+        <div id="listvuanhap">
+            
+        </div>
+    
+    
+    </div>
+</body>
+<script src="/local/main.js"></script>
+</html>
